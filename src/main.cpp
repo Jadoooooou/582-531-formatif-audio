@@ -12,7 +12,9 @@ void setup() {
 
   Serial.begin(115200);
 
+  delay(5000);
   FastLED.addLeds<WS2812, 27, GRB>(&monPixel, 1);
+  monPixel = CRGB(255, 255, 0);
 }
 
 void loop() {
@@ -26,6 +28,12 @@ void loop() {
   delay(100);
 
   // couleur_pixel
-  monPixel = CRGB(0, millis() % 25, 0);
-  FastLED.show();
+  if (maLectureAnalogique > 2000) {
+    monPixel = CRGB(255, 255, 0);
+    FastLED.show();
+  } else if (maLectureAnalogique < 2000) {
+    FastLED.clear(true);
+    monPixel = CRGB(0, 0, 255);
+    FastLED.show();
+  }
 }
