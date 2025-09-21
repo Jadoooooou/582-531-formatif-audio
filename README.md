@@ -4,4 +4,5 @@
 ## Ajouter le plugin WaveTable à Reaper
 ## Première piste   
 ## Deuxième piste
-## Messages OSC SLIP envoyés du M5stack Atom
+## Messages OSC SLIP envoyés du M5stack Atom   
+## Intégration directe du message /but   
