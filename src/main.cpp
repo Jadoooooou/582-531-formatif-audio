@@ -20,12 +20,16 @@ void setup() {
 void loop() {
   // oscslip_pd
   int maLectureBouton = digitalRead( MA_BROCHE_BOUTON );
-  monOsc.sendInt("/bouton", maLectureBouton);
+  // monOsc.sendInt("/bouton", maLectureBouton);
 
   // oscslip_angle
   int maLectureAnalogique = analogRead(MA_BROCHE_ANGLE);
-  monOsc.sendInt("/angle", maLectureAnalogique);
-  delay(100);
+  // monOsc.sendInt("/angle", maLectureAnalogique);
+
+  // messages OSC SLIP
+  monOsc.sendInt("/pot", maLectureAnalogique);
+  monOsc.sendInt("/but", maLectureBouton);
+  delay(50);
 
   // couleur_pixel
   if (maLectureAnalogique > 2000) {
