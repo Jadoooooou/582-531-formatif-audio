@@ -15,3 +15,6 @@
 ![screenshot1](https://github.com/Jadoooooou/582-531-formatif-audio/blob/main/COMPR%C3%89HENSION_medias/7.png)   
 ## Intégration directe du message /but   
 ![screenshot1](https://github.com/Jadoooooou/582-531-formatif-audio/blob/main/COMPR%C3%89HENSION_medias/8.png)  
+![screenshot1](https://github.com/Jadoooooou/582-531-formatif-audio/blob/main/COMPR%C3%89HENSION_medias/9.png)  
+## Intégration directe du message /pot   
+![screenshot1](https://github.com/Jadoooooou/582-531-formatif-audio/blob/main/COMPR%C3%89HENSION_medias/10.png)  
